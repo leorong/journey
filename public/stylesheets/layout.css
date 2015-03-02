@@ -1,0 +1,33 @@
+body {
+	background-image:url(../images/bg.png);;
+}
+
+.photo {
+	text-align: center;
+}
+
+.photo-container {
+	margin:0 auto;
+	width:200px;
+	height:200px;
+	overflow:hidden;
+}
+
+.photo img {
+	width:100%;
+}
+
+.log-entry {
+
+}
+
+.positive {
+	text-align:right;
+	border: 5px solid green;
+	
+}
+
+.negative {
+	text-align:left;
+	border: 5px solid red;
+}

@@ -1,0 +1,87 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		
+		title Timeline
+
+		// Bootstrap Core CSS
+		link(href="stylesheets/bootstrap.min.css", rel="stylesheet")
+		// Custom CSS
+		link(href="stylesheets/layout.css", rel="stylesheet")
+		// Custom Fonts
+		link(href="font-awesome/css/font-awesome.min.css", rel="stylesheet", type="text/css")
+	
+	body
+		nav.navbar.navbar-default
+			.container
+				.navbar-header
+					button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+						i.fa.fa-bars
+					a.navbar-brand.page-scroll(href="/")
+						| Fitness Journey
+				
+				.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						// Hidden li included to remove active class from about link when scrolled up past about section
+						li.hidden
+							a(href="#page-top")
+						li
+							a.page-scroll(href="/") Profile
+						li
+							a.page-scroll(href="/timeline") Timeline
+						li
+							a.page-scroll(href="/New Entry") New Entry
+
+		.row.photo
+			.photo-container
+				img(src="images/before.png")
+			.lable
+				h4 Jan 5th
+				p 166lb
+		.row.log-entry
+			.col-xs-6
+				.positive
+					h4 Jan 6th
+					p Ran 2 miles today
+			.col-xs-6
+
+		.row.log-entry
+			.col-xs-6
+			.col-xs-6
+				.negative
+					h4 Jan 10th
+					p Didn't go to the gym today, Slept too late last night
+
+		.row.log-entry
+			.col-xs-6
+				.positive
+					h4 Jan 11th
+					p Went to the gym for an hour
+			.col-xs-6
+
+		.row.log-entry
+			.col-xs-6
+				.positive
+					h4 Jan 14th
+					p Didn't have sugar in my coffee today
+			.col-xs-6
+
+		.row.photo
+			.photo-container
+				img(src="images/after.png")
+			.lable
+				h4 Feb 5th
+				p 160lb
+
+		footer
+			.container.text-center
+				
+		// jQuery
+		script(src="javascripts/jquery.js")
+		// Bootstrap Core JavaScript
+		script(src="javascripts/bootstrap.min.js")
+		// Plugin JavaScript
+		script(src="javascripts/jquery.easing.min.js")

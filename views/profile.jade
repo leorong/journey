@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+
+		title Your Profile
+
+		// Bootstrap Core CSS
+		link(href="stylesheets/bootstrap.min.css", rel="stylesheet")
+		// Custom CSS
+		link(href="stylesheets/layout.css", rel="stylesheet")
+		// Custom Fonts
+		link(href="font-awesome/css/font-awesome.min.css", rel="stylesheet", type="text/css")
+	
+	body
+		nav.navbar.navbar-default
+			.container
+				.navbar-header
+					button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+						i.fa.fa-bars
+					a.navbar-brand.page-scroll(href="/")
+						| Fitness Journey
+				
+				.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						// Hidden li included to remove active class from about link when scrolled up past about section
+						li.hidden
+							a(href="#page-top")
+						li
+							a.page-scroll(href="/") Profile
+						li
+							a.page-scroll(href="/timeline") Timeline
+						li
+							a.page-scroll(href="/New Entry") New Entry
+
+
+		footer
+			.container.text-center
+				
+		// jQuery
+		script(src="javascripts/jquery.js")
+		// Bootstrap Core JavaScript
+		script(src="javascripts/bootstrap.min.js")
+		// Plugin JavaScript
+		script(src="javascripts/jquery.easing.min.js")
