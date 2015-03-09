@@ -38,19 +38,20 @@ body {
 	height:70px;
 	overflow:hidden;
 	float:left;
-	width:40%;
+	width:30%;
 	background-color:#66CDAA;
 }
 
 .suggestion-item .photo-container img {
 	border-radius: 150px;
+	border:1px solid white;
 }
 
 .suggestion-item .text-container {
 	float:left;
 	padding-top:25px;
 	padding-bottom:15px;
-	width:60%;
+	width:70%;
 	background-color:#66CDAA;
 
 }
@@ -68,23 +69,25 @@ body {
 
 .photo img {
 	width:100%;
+	border:10px solid gray;
 }
 
 .log-entry {
-	margin-bottom:5px;
+	margin:10px 0;
+	font-weight:bold;
 }
 
 .positive {
 	text-align:right;
 	background-color: #66CDAA;
-	padding:4px;
+	padding:5px;
 	
 }
 
 .negative {
 	text-align:left;
 	background-color: #D3D3D3;
-	padding:4px;
+	padding:5px;
 }
 
 .btn-space {
@@ -93,4 +96,9 @@ body {
 
 .gray {
 	color:gray;
+}
+
+.profile-photo {
+	border-radius: 150px;
+	border:10px solid silver;
 }

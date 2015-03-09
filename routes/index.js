@@ -26,5 +26,16 @@ router.get('/bummer', function(req, res, next) {
   res.render('bummer', { title: 'Express' });
 });
 
+router.get('/jack', function(req, res, next) {
+  res.render('jack', { title: 'Express' });
+});
+
+router.get('/nick', function(req, res, next) {
+  res.render('nick', { title: 'Express' });
+});
+
+router.get('/stacy', function(req, res, next) {
+  res.render('stacy', { title: 'Express' });
+});
 
 module.exports = router;
