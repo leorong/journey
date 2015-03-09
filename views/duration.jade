@@ -5,7 +5,7 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 
-		title New Entry
+		title Set Duration
 
 		// Bootstrap Core CSS
 		link(href="stylesheets/bootstrap.min.css", rel="stylesheet")
@@ -35,22 +35,20 @@ html(lang="en")
 						li
 							a.page-scroll(href="/entry") New Entry
 
-		
-		h1.text-center Day 3 of 100
-		.container.small-container
-			p
-				div#ex1(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='200', data-slider-step='1', data-slider-value='3')
+		h3.text-center Set Your Duraton
 		.large-container
-			h3 Did you hit your goal today?
-			br
-		.container.small-container
-			br
-			br
-			br
-			a.btn.btn-lg.btn-success.btn-space(href="/awesome") Yes!
-			a.btn.btn-lg.btn-danger.btn-space(href="/bummer") No...
+			h2 How long will it take to achieve your goal?
+			.container.small-container
+				p
 
-
+					h3 100 Days
+				p
+					div#ex1(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='200', data-slider-step='1', data-slider-value='100')
+				p
+					br
+					br
+					a.btn.btn-lg.btn-success(href="/timeline") Start Your Journey!
+		
 
 
 		footer

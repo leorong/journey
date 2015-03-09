@@ -15,7 +15,7 @@ html(lang="en")
 		link(href="font-awesome/css/font-awesome.min.css", rel="stylesheet", type="text/css")
 	
 	body
-		nav.navbar.navbar-default
+		nav.navbar.navbar-inverse
 			.container
 				.navbar-header
 					button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
@@ -33,49 +33,33 @@ html(lang="en")
 						li
 							a.page-scroll(href="/timeline") Timeline
 						li
-							a.page-scroll(href="/New Entry") New Entry
+							a.page-scroll(href="/entry") New Entry
 
-		.row.photo
-			.photo-container
-				img(src="images/before.png")
-			.lable
-				h4 Jan 5th
-				p 166lb
-		.row.log-entry
-			.col-xs-6
-				.positive
-					h4 Jan 6th
-					p Ran 2 miles today
-			.col-xs-6
+		.container
+			h2.text-center Your Fitness Journey
+			h3.text-center.gray Lose 10 pounds
+			.row.photo
+				.photo-container
+					img(src="images/before.png")
+				.lable
+					p 166lb
+			.row.log-entry
+				.col-xs-6
+					.positive
+						p Ran 2 miles today
+				.col-xs-6
 
-		.row.log-entry
-			.col-xs-6
-			.col-xs-6
-				.negative
-					h4 Jan 10th
-					p Didn't go to the gym today, Slept too late last night
+			.row.log-entry
+				.col-xs-6
+				.col-xs-6
+					.negative
+						p Didn't go to the gym today, Slept too late last night
 
-		.row.log-entry
-			.col-xs-6
-				.positive
-					h4 Jan 11th
-					p Went to the gym for an hour
-			.col-xs-6
-
-		.row.log-entry
-			.col-xs-6
-				.positive
-					h4 Jan 14th
-					p Didn't have sugar in my coffee today
-			.col-xs-6
-
-		.row.photo
-			.photo-container
-				img(src="images/after.png")
-			.lable
-				h4 Feb 5th
-				p 160lb
-
+		.container.small-container
+			h3 Day 2 of 100
+		.large-container
+			a.btn.btn-lg.btn-success(href="/entry") Add to Journey >>
+		
 		footer
 			.container.text-center
 				

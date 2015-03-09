@@ -1,9 +1,62 @@
 body {
-	background-image:url(../images/bg.png);;
+	background-image:url(../images/bg.png);
+}
+
+.navbar {
+	color:white;
 }
 
 .photo {
 	text-align: center;
+}
+
+.small-container {
+	text-align: center;
+	padding:5px;
+	width:80%;
+}
+
+.large-container {
+	text-align:center;
+	background-color: #D3D3D3;
+	padding:10px;
+}
+
+.btn-success {
+	color:black;
+	font-weight:bold;
+}
+
+.suggestion-item {
+	display:block;
+	clear:left;
+	padding:5px;
+}
+
+.suggestion-item .photo-container {
+	width:70px;
+	height:70px;
+	overflow:hidden;
+	float:left;
+	width:40%;
+	background-color:#66CDAA;
+}
+
+.suggestion-item .photo-container img {
+	border-radius: 150px;
+}
+
+.suggestion-item .text-container {
+	float:left;
+	padding-top:25px;
+	padding-bottom:15px;
+	width:60%;
+	background-color:#66CDAA;
+
+}
+
+#ex1Slider .slider-selection {
+	background: green;
 }
 
 .photo-container {
@@ -18,16 +71,26 @@ body {
 }
 
 .log-entry {
-
+	margin-bottom:5px;
 }
 
 .positive {
 	text-align:right;
-	border: 5px solid green;
+	background-color: #66CDAA;
+	padding:4px;
 	
 }
 
 .negative {
 	text-align:left;
-	border: 5px solid red;
+	background-color: #D3D3D3;
+	padding:4px;
+}
+
+.btn-space {
+	margin:0 20px;
+}
+
+.gray {
+	color:gray;
 }
