@@ -4,8 +4,8 @@ html(lang="en")
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
-		
-		title Jack
+
+		title Feed
 
 		// Bootstrap Core CSS
 		link(href="stylesheets/bootstrap.min.css", rel="stylesheet")
@@ -13,15 +13,13 @@ html(lang="en")
 		link(href="stylesheets/layout.css", rel="stylesheet")
 		// Custom Fonts
 		link(href="font-awesome/css/font-awesome.min.css", rel="stylesheet", type="text/css")
-	
 	body
 		nav.navbar.navbar-inverse
 			.container
 				.navbar-header
 					button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
 						i.fa.fa-bars
-					a.navbar-brand.page-scroll(href="/")
-						| Fitness Journey
+					a.navbar-brand(href="/") Fitness Journey
 				
 				.navbar-collapse.collapse
 					ul.nav.navbar-nav
@@ -35,56 +33,40 @@ html(lang="en")
 						li
 							a.page-scroll(href="/entry") New Entry
 
-		.container.small-container
-			img.profile-photo(src="images/Jack.png")
-			h2.text-center Jack
-			h4.text-center.gray Get rid of my love-handles and pudgy belly-fat.
-		.container
-			.row.photo
-				.photo-container
-					img(src="images/jack-before.png")
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p Started, 40 mins of cardio today
-				.col-xs-6
+		h2.text-center.green It's Ok!!
+		.large-container
+			h3.text-center 37 other people share the same setback
 
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p Dropped Calories intake down to 2000
-				.col-xs-6
 
-			.row.log-entry
-				.col-xs-6
-				.col-xs-6
-					.negative
-						p Feeling really sluggish and low energy
-
-			.row.log-entry
-				.col-xs-6
-				.col-xs-6
-					.negative
-						p No energy, workout was super difficult
-
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p Started feeling more use to the diet. Workout is not as bad today
-				.col-xs-6
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p Lost 5 pounds so far
-				.col-xs-6
-			.row.photo
-				.photo-container
-					img(src="images/jack-after.png")
 
 		.container.small-container
-			h3 Day 121 of 300
-		
-		
+			.row.suggestion-item
+				.photo-container.col-xs-4
+					a(href="/jack")
+						img(src="images/Jack.png")
+				.text-container.col-xs-6
+					p Day 10 of 62 | “Feel like crap today..."
+			.row.suggestion-item
+				.photo-container.col-xs-4
+					a(href="/nick")
+						img(src="images/Nick.png")
+				.text-container.col-xs-6
+					p Day 13 of 100 | “I had the worst workout ever..."
+			.row.suggestion-item
+				.photo-container.col-xs-4
+					a(href="/stacy")
+						img(src="images/Stacy.png")
+				.text-container.col-xs-6
+					p Day 2 of 30 | “Didn't get enough sleep last night..."
+			.row.suggestion-item
+				.photo-container.col-xs-4
+					a(href="/stacy")
+						img(src="images/Stacy.png")
+				.text-container.col-xs-6
+					p Day 21 of 100 | “I just ate a whole cheese cake at midnight..."
+		.large-container
+			a.btn.btn-lg.btn-success(href="/timeline") Back to My Timeline >>
+
 		footer
 			.container.text-center
 				
@@ -93,4 +75,4 @@ html(lang="en")
 		// Bootstrap Core JavaScript
 		script(src="javascripts/bootstrap.min.js")
 		// Plugin JavaScript
-		script(src="javascripts/jquery.easing.min.js")
+		script(src="javascripts/jquery.easing.min.js")			

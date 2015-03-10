@@ -6,6 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('welcome', { title: 'Express' });
 });
 
+router.get('/feed', function(req, res, next) {
+  res.render('feed', { title: 'Express' });
+});
+
 router.get('/duration', function(req, res, next) {
   res.render('duration', { title: 'Express' });
 });
@@ -24,6 +28,10 @@ router.get('/awesome', function(req, res, next) {
 
 router.get('/bummer', function(req, res, next) {
   res.render('bummer', { title: 'Express' });
+});
+
+router.get('/setback', function(req, res, next) {
+  res.render('setback', { title: 'Express' });
 });
 
 router.get('/jack', function(req, res, next) {

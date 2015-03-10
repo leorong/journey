@@ -3,3 +3,5 @@ $('#ex1').slider({
 		return 'Current value: ' + value;
 	}
 });
+
+$("[name='my-checkbox']").bootstrapSwitch();

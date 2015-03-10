@@ -13,7 +13,8 @@ html(lang="en")
 		link(href="stylesheets/layout.css", rel="stylesheet")
 		// Custom Fonts
 		link(href="font-awesome/css/font-awesome.min.css", rel="stylesheet", type="text/css")
-	
+		link(href="font-awesome/css/boostrap-switch.min.css", rel="stylesheet", type="text/css")
+
 	body
 		nav.navbar.navbar-inverse
 			.container
@@ -29,15 +30,16 @@ html(lang="en")
 						li.hidden
 							a(href="#page-top")
 						li
-							a.page-scroll(href="/") Start Journey
+							a.page-scroll(href="/feed") Feed
 						li
-							a.page-scroll(href="/timeline") Timeline
+							a.page-scroll(href="/timeline") My Timeline
 						li
 							a.page-scroll(href="/entry") New Entry
 
 		.container
 			h2.text-center Your Fitness Journey
 			h3.text-center.gray Lose 10 pounds
+
 			.row.photo
 				.photo-container
 					img(src="images/before.png")
@@ -67,3 +69,5 @@ html(lang="en")
 		script(src="javascripts/bootstrap.min.js")
 		// Plugin JavaScript
 		script(src="javascripts/jquery.easing.min.js")
+		script(src="javascripts/boostrap-switch.min.js")
+		script(src="javascripts/layout.js")
