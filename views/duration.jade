@@ -29,25 +29,28 @@ html(lang="en")
 						li.hidden
 							a(href="#page-top")
 						li
-							a.page-scroll(href="/feed") Feed
+							a.page-scroll(href="/news") News Feed
+						li
+							a.page-scroll(href="/feed") Browse
 						li
 							a.page-scroll(href="/timeline") My Timeline
 						li
 							a.page-scroll(href="/entry") New Entry
 
-		h3.text-center Set Your Duraton
+		.filler
 		.large-container
-			h2 How long will it take to achieve your goal?
+			h3 Set a long term goal for yourself
 			.container.small-container
-				p
-
-					h3 100 Days
+				.form-group
+					input.form-control.text-center(type='text' placeholder="10") 
+				label Pounds
+				h2 100 Days
 				p
 					div#ex1(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='200', data-slider-step='1', data-slider-value='100')
 				p
 					br
 					br
-					a.btn.btn-lg.btn-success(href="/timeline") Start Your Journey!
+					a.btn.btn-inverse(href="/timeline") Start Your Journey!
 		
 
 

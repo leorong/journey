@@ -1,13 +1,14 @@
 body {
-	background-image:url(../images/bg.png);
+	
 }
 
 .navbar {
 	color:white;
+	background-color: black;
 }
 
-.navbar-header {
-    text-align: center;
+.navbar-brand {
+	color:white;
 }
 
 .photo {
@@ -21,71 +22,72 @@ body {
 }
 
 .large-container {
+	margin-top:-19px;
 	text-align:center;
-	background-color: #D3D3D3;
+	background-color: black;
 	padding:10px;
+	color:white;
 }
 
-.btn-success {
-	color:black;
+.btn-inverse {
+	color:white;
+	font-weight:bold;
+	border:1px solid white;
+}
+
+.btn-black {
+	background-color:black;
+	color:white;
 	font-weight:bold;
 }
 
 .suggestion-item {
-	padding:5px;
-	margin-bottom:5px;
-	background-color:#66CDAA;
+	padding:0 10px;
+	margin-bottom:3px;
+	background-color:#80C0FF;
 }
 
 .suggestion-item .photo-container {
+	padding-top:5px;
 	width:70px;
 	height:70px;
-	width:30%;
+	width:35%;
 }
 
 .suggestion-item .photo-container img {
 	border-radius: 150px;
 	border:1px solid white;
+	width:60px;
 }
 
 .suggestion-item .text-container {
 	padding-top:20px;
-	width:70%;
-
-}
-
-#ex1Slider .slider-selection {
-	background: green;
-}
-
-.photo-container {
-	margin:0 auto;
-	width:200px;
-	height:200px;
-	overflow:hidden;
-}
-
-.photo img {
-	width:100%;
-	border:10px solid gray;
-}
-
-.log-entry {
-	margin:10px 0;
+	width:65%;
+	font-size:13px;
 	font-weight:bold;
 }
 
+.filler {
+	height:70px;
+}
+
+
+.photo img {
+	width:100px;
+	border:2px solid black;
+}
+
+.log-entry {
+	font-weight:bold;
+	font-size:11px;
+}
+
 .positive {
-	text-align:right;
-	background-color: #66CDAA;
-	padding:5px;
-	
+	text-align:left;
 }
 
 .negative {
-	text-align:left;
-	background-color: #D3D3D3;
-	padding:5px;
+	text-align:right;
 }
 
 .btn-space {
@@ -96,11 +98,25 @@ body {
 	color:gray;
 }
 
+.icon {
+	font-size:20px;
+}
+
+.blue {
+	color:blue;
+}
+
+.red {
+	color:red;
+}
+
 .green {
 	color:green;
+	font-style:italic;
 }
 
 .profile-photo {
 	border-radius: 150px;
-	border:10px solid silver;
+	border:10px solid black;
+	width:100px;
 }

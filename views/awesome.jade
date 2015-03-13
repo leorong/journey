@@ -28,22 +28,24 @@ html(lang="en")
 						li.hidden
 							a(href="#page-top")
 						li
-							a.page-scroll(href="/feed") Feed
+							a.page-scroll(href="/news") News Feed
+						li
+							a.page-scroll(href="/feed") Browse
 						li
 							a.page-scroll(href="/timeline") My Timeline
 						li
 							a.page-scroll(href="/entry") New Entry
-
 		
-		h1.text-center Awesome!
-		h3.text-center.gray Tell us More
-
+		
+		.filler					
 		.large-container
+			h1 Awesome!
+			h3.gray Tell us More
 			.container.small-container
 				form(role="form")
 					.form-group
-						textarea.form-control.input-lg(rows="10", id="positive-log", placeholder="Tried SoulCycle for the first time today… feeling so pumped! Definitely going back")
-					a.btn.btn-lg.btn-success(href="/timeline") Post!
+						textarea.form-control.input-lg(rows="5", id="positive-log", placeholder="Tried SoulCycle for the first time today… feeling so pumped! Definitely going back")
+					a.btn.btn-lg.btn-inverse(href="/timeline") Post!
 
 
 

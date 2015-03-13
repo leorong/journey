@@ -5,7 +5,7 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		
-		title Nick
+		title Eric
 
 		// Bootstrap Core CSS
 		link(href="stylesheets/bootstrap.min.css", rel="stylesheet")
@@ -29,62 +29,97 @@ html(lang="en")
 						li.hidden
 							a(href="#page-top")
 						li
-							a.page-scroll(href="/feed") Feed
+							a.page-scroll(href="/news") News Feed
+						li
+							a.page-scroll(href="/feed") Browse
 						li
 							a.page-scroll(href="/timeline") My Timeline
 						li
 							a.page-scroll(href="/entry") New Entry
 
 		.container.small-container
-			img.profile-photo(src="images/Nick.png")
-			h2.text-center Nick
-			h4.text-center.gray Abs! I want washboard abs!
+			.btn.btn-black.fa.fa-plus
+			&nbsp;
+			img.profile-photo(src="images/2.png")
+			&nbsp;
+			.btn.btn-black.fa.fa-envelope-o  
+			h3.text-center Eric
+			h4.text-center.gray Lose 20 lbs over 200 days
 		.container
 			.row.photo
 				.photo-container
 					img(src="images/nick-before.png")
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					img(src="images/nick-after.png")
+			h4.text-center.gray Day 54 of 150
+			hr
 			.row.log-entry
-				.col-xs-6
-					.positive
-						p Started eating more and weight training
-				.col-xs-6
-
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p Good chest day today, max out at 135lbs for bench press
-				.col-xs-6
-
-			.row.log-entry
-				.col-xs-6
-				.col-xs-6
+				.col-xs-5
 					.negative
-						p Leg day sucks, I can barely do 135lb...
-
+						p Negative Progress log....
+				.col-xs-1
+					.icon.blue
+						.fa.fa-thumbs-o-down
+			hr
 			.row.log-entry
-				.col-xs-6
-				.col-xs-6
+				.col-xs-5
+				.col-xs-1
+					.icon.red
+						.fa.fa-thumbs-o-up
+				.col-xs-5
 					.negative
-						p Lower body is so sore, I didn't go to the gym today
-
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p Recover time has been reduced. I think I am getting use to the routine!
-				.col-xs-6
-			.row.log-entry
-				.col-xs-6
-					.positive
-						p I am getting stronger!
-				.col-xs-6
+						p Positive Progress log....
+			hr
 			.row.photo
 				.photo-container
 					img(src="images/nick-after.png")
+			h5.text-center.gray Day 52
+			hr
+			.row.log-entry
+				.col-xs-5
+					.negative
+						p Negative Progress log....
+				.col-xs-1
+					.icon.blue
+						.fa.fa-thumbs-o-down
+			hr
+			.row.log-entry
+				.col-xs-5
+					.negative
+						p Negative Progress log....
+				.col-xs-1
+					.icon.blue
+						.fa.fa-thumbs-o-down
+			hr
+			.row.photo
+				.photo-container
+					img(src="images/nick-before.png")
+			h5.text-center.gray Day 20
+			hr
+			.row.log-entry
+				.col-xs-5
+				.col-xs-1
+					.icon.red
+						.fa.fa-thumbs-o-up
+				.col-xs-5
+					.negative
+						p Positive Progress log....
+			hr
+			.row.log-entry
+				.col-xs-5
+				.col-xs-1
+					.icon.red
+						.fa.fa-thumbs-o-up
+				.col-xs-5
+					.negative
+						p Positive Progress log....
+			hr
+			.row.photo
+				.photo-container
+					img(src="images/nick-before.png")
 
-		.container.small-container
-			h3 Day 89 of 100
-		
-		
+			h5.text-center.gray Day 1
+
 		footer
 			.container.text-center
 				
